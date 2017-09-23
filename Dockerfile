@@ -2,7 +2,7 @@ from fedora:latest
 RUN dnf clean all && dnf -y update \
  && dnf -y install openssh-server \ 
   passwd \
-  docker-client \
+  docker \
   nano \
   git \
   sipcalc \
